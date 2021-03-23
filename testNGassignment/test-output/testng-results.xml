@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+    <groups>
+      <group name="School">
+        <method signature="School.books()[pri:3, instance:testNGassignment.School@3cef309d]" name="books" class="testNGassignment.School"/>
+        <method signature="School.bulk()[pri:1, instance:testNGassignment.School@3cef309d]" name="bulk" class="testNGassignment.School"/>
+      </group> <!-- School -->
+    </groups>
+    <test name="Default test" duration-ms="32" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+      <class name="testNGassignment.Banking">
+        <test-method status="PASS" signature="money()[pri:0, instance:testNGassignment.Banking@50b494a6]" name="money" is-config="true" duration-ms="6" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- money -->
+        <test-method status="PASS" signature="Cashier()[pri:0, instance:testNGassignment.Banking@50b494a6]" name="Cashier" is-config="true" duration-ms="1" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cashier -->
+        <test-method status="PASS" signature="Debit()[pri:0, instance:testNGassignment.Banking@50b494a6]" name="Debit" is-config="true" duration-ms="0" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Debit -->
+        <test-method status="PASS" signature="cash()[pri:0, instance:testNGassignment.Banking@50b494a6]" name="cash" is-config="true" duration-ms="0" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cash -->
+        <test-method status="PASS" signature="Credit()[pri:0, instance:testNGassignment.Banking@50b494a6]" name="Credit" is-config="true" duration-ms="0" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Credit -->
+      </class> <!-- testNGassignment.Banking -->
+      <class name="testNGassignment.School">
+        <test-method status="PASS" signature="Fees()[pri:0, instance:testNGassignment.School@3cef309d]" name="Fees" is-config="true" duration-ms="0" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fees -->
+        <test-method status="PASS" signature="Uniform()[pri:0, instance:testNGassignment.School@3cef309d]" name="Uniform" is-config="true" duration-ms="0" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Uniform -->
+        <test-method status="PASS" signature="student()[pri:0, instance:testNGassignment.School@3cef309d]" name="student" is-config="true" duration-ms="0" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- student -->
+        <test-method status="PASS" signature="Bell()[pri:0, instance:testNGassignment.School@3cef309d]" name="Bell" is-config="true" duration-ms="0" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bell -->
+        <test-method status="PASS" signature="bulk()[pri:1, instance:testNGassignment.School@3cef309d]" name="bulk" duration-ms="4" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bulk -->
+        <test-method status="PASS" signature="books()[pri:3, instance:testNGassignment.School@3cef309d]" name="books" duration-ms="1" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- books -->
+      </class> <!-- testNGassignment.School -->
+      <class name="testNGassignment.Office">
+        <test-method status="PASS" signature="Holidays()[pri:0, instance:testNGassignment.Office@32709393]" name="Holidays" is-config="true" duration-ms="0" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Holidays -->
+        <test-method status="PASS" signature="Manager()[pri:0, instance:testNGassignment.Office@32709393]" name="Manager" is-config="true" duration-ms="1" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manager -->
+        <test-method status="PASS" signature="Desk()[pri:2, instance:testNGassignment.Office@32709393]" name="Desk" duration-ms="1" depends-on-groups="School" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Desk -->
+        <test-method status="PASS" signature="table()[pri:0, instance:testNGassignment.Office@32709393]" name="table" is-config="true" duration-ms="1" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- table -->
+        <test-method status="PASS" signature="consultant()[pri:0, instance:testNGassignment.Office@32709393]" name="consultant" is-config="true" duration-ms="0" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- consultant -->
+        <test-method status="PASS" signature="Salaries()[pri:0, instance:testNGassignment.Office@32709393]" name="Salaries" is-config="true" duration-ms="0" started-at="2021-03-23T13:32:07 IST" finished-at="2021-03-23T13:32:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Salaries -->
+      </class> <!-- testNGassignment.Office -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
